@@ -1,4 +1,4 @@
-function simple()
+function simple(msg)
 {
-  alert("This is alert box, Thank  you!!!")
+  alert(msg)
 }
