@@ -1,0 +1,15 @@
+button{
+  border-radius: 12px;
+
+  border: none;
+  padding: 20px;
+  color: white;
+}
+
+#startBtn{
+  background-color: #4CAF50;
+}
+
+#stopBtn{
+  background-color: #f44336;
+}
