@@ -11,10 +11,14 @@ function start()
 {
   imgObj.style.left = parseInt(imgObj.style.left) + 10 + 'px' //moving image by 10 px right by adding 10px padding at left
   animation = setTimeout(start,200)   //start function get call at each 200ms
-  imgObj.style.zoom = parseInt(imgObj.style.left) + 10 + '%' //zooming image by 10% at each function call
+  imgObj.style.zoom = parseInt(imgObj.style.left) + 100 + '%' //zooming image by 10% at each function call
   btnObj.disabled = 'true'; //once start function call start button disabled
   btnObj.style.color = '#e7e7e7';
   btnObj.style.opacity = '0.6'; //to give disable look for start button
+  if(imgObj.style.left == '150px'){
+    imgObj.style.left = '0px';
+    imgObj.style.zoom = '0px';
+  }
 }
 function stop()
 {
