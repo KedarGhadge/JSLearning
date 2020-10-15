@@ -12,6 +12,7 @@ function TriArea(){
 
 
   var tr = new Triangle()
-  document.write('Area of Triangle='+ tr.area() )
+  //document.write('Area of Triangle='+ tr.area() ) //thisis changing th whole page so made some changes
+  document.getElementById("p1").innerHTML = "Output is: "+ tr.area();
 
 }
